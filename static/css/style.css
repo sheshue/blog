@@ -30,7 +30,7 @@ img{max-width:100%;}
 /*end reset*/
 /*--header start here--*/
 body {
-  background: url(../images/banner.jpg)no-repeat;
+  background: url(../img/banner.jpg)no-repeat;
   background-size: cover;
   padding: 70px 0px 70px 0px;
   min-height: 900px;
@@ -70,7 +70,7 @@ span.anc-color {
 	display:inline-block;
 }
 .login-top ul li a {
-  background: url(../images/sprite.png)no-repeat;
+  background: url(../img/sprite.png)no-repeat;
   width: 35px;
   height: 34px;
   display: block;
@@ -159,7 +159,7 @@ span.anc-color {
   color:#9F8D78;
 }
 .login-top input[type="text"] {
-  background: url(../images/email.png)no-repeat 7px 17px;
+  background: url(../img/email.png)no-repeat 7px 17px;
   font-size: 15px;
   font-weight: 400;
   color: #000;
@@ -172,7 +172,7 @@ span.anc-color {
   -webkit-appearance: none;
 }
 .login-top input[type="password"]{
-background: url(../images/lock.png)no-repeat 8px 14px;
+background: url(../img/lock.png)no-repeat 8px 14px;
   font-size: 15px;
   font-weight: 400;
   color: #000;
@@ -208,14 +208,14 @@ background: url(../images/lock.png)no-repeat 8px 14px;
 	-ms-transition: border-color 0.3s;
 	-moz-transition: border-color 0.3s;
 	-webkit-transition: border-color 0.3s;
-	
+
 }
 .login-top.checkbox i:hover {
 	border-color:red;
-	
+
 }
 .login-top  i:before {
-	background-color: #2da5da;	
+	background-color: #2da5da;
 }
 .login-top  .rating label {
 	color: #ccc;
@@ -235,7 +235,7 @@ background: url(../images/lock.png)no-repeat 8px 14px;
 	-webkit-transition: opacity 0.1s;
 }
 .login-top .checkbox input + i:after {
-	content: url(../images/tick.png) no-repeat 7px 1px;
+	content: url(../img/tick.png) no-repeat 7px 1px;
 	top: 0px;
 	left: 0px;
 	width: 15px;
@@ -279,10 +279,10 @@ background: url(../images/lock.png)no-repeat 8px 14px;
 }
 .login-top.checkbox input:checked + i,
 .login-top . input:checked + i {
-	border-color: #2da5da;	
+	border-color: #2da5da;
 }
 .login-top .rating input:checked ~ label {
-	color: #2da5da;	
+	color: #2da5da;
 }
 
 .login-top .checkbox input:checked + i:after {
@@ -378,7 +378,7 @@ background: url(../images/lock.png)no-repeat 8px 14px;
 @media(max-width:1366px){
 .login-top h2:before {
   width: 115px;
-}	
+}
 .login-top h2:after {
   width: 115px;
 }
@@ -439,7 +439,7 @@ background: url(../images/lock.png)no-repeat 8px 14px;
 }
 @media(max-width:768px){
 .login {
-  width: 70%;	
+  width: 70%;
 }
 .login-top h1 {
   font-size: 22px;
@@ -478,7 +478,7 @@ body {
 }
 @media(max-width:640px){
 .login-top {
-  padding: 30px 0px;	
+  padding: 30px 0px;
 }
 .login-top ul {
   margin: 20px 0px 10px 0px;
@@ -508,14 +508,14 @@ body {
   margin: 5px 0px 10px 0px;
 }
 .login-top input[type="text"] {
-  background: url(../images/email.png)no-repeat 6px 12px;
+  background: url(../img/email.png)no-repeat 6px 12px;
   padding: 10px 0px 10px 33px;
   width: 70%;
   margin: 16px auto 15px;
   font-size:13px;
 }
 .login-top input[type="password"] {
-  background: url(../images/lock.png)no-repeat 6px 8px;
+  background: url(../img/lock.png)no-repeat 6px 8px;
   padding: 10px 0px 10px 33px;
   width: 70%;
   font-size:13px;
@@ -580,7 +580,7 @@ body {
 .copyright p {
   font-size: 13px;
   padding: 35px 0px 0px 0px;
-}	
+}
 .login-top {
   padding: 15px 0px;
 }
